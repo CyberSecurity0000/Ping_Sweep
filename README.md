@@ -27,3 +27,19 @@ Ele transforma um comando chato do terminal em algo limpo, rápido e visual — 
 2. O script salva tudo em `site.txt`.  
 3. Para cada item, ele executa:
 
+4. Se responder → mostra **verde (ativo)**  
+5. Senão → **amarelo (inativo)**  
+
+Simples e direto, estilo “hack & go”.
+
+---
+
+## 📥 Instalação
+
+Instale o Nmap:
+
+```bash
+sudo apt install nmap
+chmod +x scanner.sh
+./scanner.sh 192.168.0.1
+./scanner.sh 192.168.0.1 192.168.0.2 google.com
