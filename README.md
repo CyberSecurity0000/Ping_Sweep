@@ -41,5 +41,5 @@ Instale o Nmap:
 ```bash
 sudo apt install nmap
 chmod +x scanner.sh
-./scanner.sh 192.168.0.1
-./scanner.sh 192.168.0.1 192.168.0.2 google.com
+./ghostPing.sh 192.168.0.1
+./ghostPing.sh 192.168.0.1 192.168.0.2 google.com
